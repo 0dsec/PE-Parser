@@ -1,0 +1,1 @@
+currently the script here opens an executable as raw bytes, verifies the MZ DOS header exists, extracts e_lfanew then, jumps to the PE header amd then finally verifies the PE\0\0 signature. Will work more on this sometime this week.
